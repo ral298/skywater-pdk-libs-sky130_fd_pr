@@ -1,6 +1,6 @@
 * SKY130 Spice File.
 .option scale=1.0u
-.include "parameters/custom_lod.spice"
+.include "parameters/custom_lod_3v3.spice"
 .param
 + lv_dlc_rotweak = .00e-9
 + lvhvt_dlc_rotweak = .00e-9
@@ -8,10 +8,7 @@
 + hv_dlc_rotweak = .00e-9
 + sky130_fd_pr__nfet_01v8__dlc_rotweak = lv_dlc_rotweak
 + sky130_fd_pr__pfet_01v8__dlc_rotweak = lv_dlc_rotweak
-+ sky130_fd_pr__nfet_g5v0d10v5__dlc_rotweak = hv_dlc_rotweak
-+ sky130_fd_pr__pfet_g5v0d10v5__dlc_rotweak = hv_dlc_rotweak
 .param sky130_fd_pr__rf_nfet_01v8__base__dlc_rotweak=0
 .param sky130_fd_pr__rf_pfet_01v8__base__dlc_rotweak=0
-.param sky130_fd_pr__rf_nfet_g5v0d10v5__base__dlc_rotweak=0
-.include "../cells/rf_nfet_g5v0d10v5/sky130_fd_pr__rf_nfet_g5v0d10v5.pm3.spice"
+
 

@@ -1,6 +1,6 @@
 * SKY130 Spice File.
 .option scale=1.0u
-.include "parameters/custom_lod_3v3.spice"
+.include "parameters/custom_lod_1v8.spice"
 .param
 + lv_dlc_rotweak = .00e-9
 + lvhvt_dlc_rotweak = .00e-9
